@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Patient Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logi.js"></script>
+   
+</head>
+<body>
+
+    <div id="hospital-alert">  ALERT: ABNORMAL VITALS DETECTED - ALERTING HOSPITAL...</div>
+
+    <h1>  Patient chart</h1>
+    <div class="status-bar">
+        Patient: <strong> LOGESH (ID: 4521)</strong> | Sensor Status: <span style="color:green">●tracking</span><span style="color: blue;"> | ●dummy data showcased on below not yet completely built webpage</span>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="card">
+            <div class="icon">❤️</div>
+            <div class="label">Heart Rate</div>
+            <div class="value" id="hr">--</div>
+            <div class="unit">BPM</div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🩸</div>
+            <div class="label">Blood Pressure</div>
+            <div class="value" id="bp">--/--</div>
+            <div class="unit">mmHg</div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌡️</div>
+            <div class="label">Temperature</div>
+            <div class="value" id="temp">--</div>
+            <div class="unit">°C</div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🫧</div>
+            <div class="label">SpO2</div>
+            <div class="value" id="spo2">--</div>
+            <div class="unit">%</div>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
